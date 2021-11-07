@@ -16,13 +16,18 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap"
       rel="stylesheet"
     />
-
     <title>Stats Preview Card</title>
   </head>
+
   <body>
-    <main class="container">
+    <div class="container">
+      <div id="image_side">
+        <div id="banner_image">
+          <div id="image_overlay"></div>
+        </div>
+      </div>
       <div id="text_side">
-        <div id="text_padder">
+        <div id="text_section">
           <h1 class="heading">
             Get
             <span class="accented">insights</span>
@@ -33,24 +38,20 @@
             regarding revenue, customer experience, and overall efficiency.
           </p>
         </div>
-        <div id="list_padder">
+        <div id="list_section">
           <ul id="stat_heading">
             <li>10k+</li>
             <li>314</li>
             <li>12M+</li>
           </ul>
 
-          <ul class="stat_caption">
+          <ul id="stat_caption">
             <li>COMPANIES</li>
             <li>TEMPLATES</li>
             <li>QUERIES</li>
           </ul>
         </div>
       </div>
-
-      <div id="banner_image">
-        <div id="image_overlay"></div>
-      </div>
-    </main>
+    </div>
   </body>
 </html>
